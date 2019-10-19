@@ -1,0 +1,36 @@
+<div class="container">
+	<div class="row">
+		<!-- previous button -->
+		<div class="col-sm">
+			<div class="text-left">
+				{%-if page.title == "Argument"-%}
+				<a class="btn btn-outline-primary" href="{{ "/index.html" | relative_url }}">Previous: Home</a>
+				{%-elsif page.title == "Topic Model"-%}
+				<a class="btn btn-outline-primary" href="{{ "/argument.html" | relative_url }}">Previous: Argument</a>
+				{%-elsif page.title == "GPT-2"-%}
+				<a class="btn btn-outline-primary" href="{{ "/topic-model.html" | relative_url }}">Previous: Topic Model</a>
+				{%-elsif page.title == "Conclusion"-%}
+				<a class="btn btn-outline-primary" href="{{ "/gpt2.html" | relative_url }}">Previous: GPT-2</a>
+				{%-elsif page.title == "Bibliography"-%}
+				<a class="btn btn-outline-primary" href="{{ "/conclusion.html" | relative_url }}">Previous: Conclusion</a>
+				{%-endif-%}
+			</div>
+		</div>
+		<!-- next button -->
+		<div class="col-sm">
+			<div class="text-right">
+				{%-if page.title == "Home"-%}
+				<a class="btn btn-outline-primary" href="{{ "/argument.html" | relative_url }}">Next: Argument</a>
+				{%-elsif page.title == "Argument"-%}
+				<a class="btn btn-outline-primary" href="{{ "/topic-model.html" | relative_url }}">Next: Topic Model</a>
+				{%-elsif page.title == "Topic Model"-%}
+				<a class="btn btn-outline-primary" href="{{ "/gpt2.html" | relative_url }}">Next: GPT-2</a>
+				{%-elsif page.title == "GPT-2"-%}
+				<a class="btn btn-outline-primary" href="{{ "/conclusion.html" | relative_url }}">Next: Conclusion</a>
+				{%-elsif page.title == "Conclusion"-%}
+				<a class="btn btn-outline-primary" href="{{ "/bibliography.html" | relative_url }}">Next: Bibliography</a>
+				{%-endif-%}
+			</div>
+		</div>
+	</div>
+</div>

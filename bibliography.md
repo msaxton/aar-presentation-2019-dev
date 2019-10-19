@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GPT-2
+title: Bibliography
 ---
 
 # Bibliography

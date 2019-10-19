@@ -1,18 +1,11 @@
-
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: AI-Body Problem
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Unease about artificial intelligence is often expressed in terms of the effects of bias, or job displacement, or singularity (the fear that AI will take over). Our thesis is that a major source of uneasiness, one which has not been much explored, is AI’s uncanniness.
 baseurl: "/aar-presentation-2019-dev"
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+#twitter_username:
+#github_username:
 
 repository: "nicolas-van/bootstrap-4-github-pages"
 
@@ -23,12 +16,12 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - Home
-  - Argument
-  - Topic Model
-  - GPT-2
-  - Conclusion
-  - Bibliography
+  - index.md
+  - argument.md
+  - topic-model.md
+  - gpt2.md
+  - conclusion.md
+  - bibliography.md
 
 
 # Exclude from processing.

@@ -4,8 +4,17 @@
   {%- include head.html -%}
 
   <body>
-
     {%- include header.html -%}
+    {%- if page.title == "Home" -%}
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">{{ site.title }}</h1>
+        <p class="lead">{{ site.description }}</p>
+      </div>
+    </div>
+    {%- endif -%}
+
+    
 
     <div class="py-5">
       <div class="container page-content">

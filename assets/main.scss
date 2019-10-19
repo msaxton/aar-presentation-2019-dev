@@ -7,3 +7,11 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+
+.jumbotron {
+	background-image: url("./david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: white;
+}
