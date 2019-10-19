@@ -2,7 +2,6 @@
 layout: page
 title: Bibliography
 ---
-
 # Bibliography
 
 Barrat, James. Our Final Invention: Artificial Intelligence and the End of the Human Era. Reprint edition. New York: St. Martin’s Griffin, 2015.

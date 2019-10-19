@@ -2,7 +2,6 @@
 layout: page
 title: Topic Model
 ---
-
 # Topic Model
 
 Here we discuss topic modeling as a simple example of AI; additionally, we present an example of a topic model we constructed which demonstrates the presence of mind/body discussion across a very large corpus of scholarly philosophical literature. On the whole, we avoid technical details about the process of creating and using a topic model in favor of higher level and intuitive explanations.
